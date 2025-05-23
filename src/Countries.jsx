@@ -39,7 +39,8 @@ export default function Countries(){
     setApidata(resp);
     }
     catch(error){
-        console.error("Error fetching data: ", error);
+        console.error("Error fetching data:");
+
     }
 
 }
